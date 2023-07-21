@@ -1,0 +1,102 @@
+.title {
+    height: 310px;
+    background-image: url(../images/common/sudokuNow.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #1b2194;
+}
+
+.title h1 {
+    font-family: 'Kaisei Tokumin', serif;    
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.feature img {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.reverse {
+    font-family: 'Kaisei Tokumin', serif;
+    flex-direction: row-reverse;
+}
+
+.reverse .feature-text {
+    font-family: 'Kaisei Tokumin', serif;
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.feature-text h2 {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: drop-shadow(2px 2px 0px #fbffbf);
+
+}
+
+.feature-text dd {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.katsudo-list {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.reverse .katsudo-list-text {
+    font-family: 'Kaisei Tokumin', serif;
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.katsudo-list-text h2 {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: drop-shadow(1px 2px 1px #8bff93);
+}
+
+.katsudo-list-text dd {
+    font-family: 'Kaisei Tokumin', serif;
+    margin-left: 40px;
+    margin-right: 0px;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
