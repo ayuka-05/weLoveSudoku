@@ -1,0 +1,144 @@
+
+.section1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(-225deg, #c9fffe 0%, #C5C1FF 56%, #ffd3eb 100%);
+    padding-bottom: 30px;
+}
+
+.section2 {
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(214, 249, 255, 0.735), rgba(26, 141, 255, 0.74)),url(../images/common/meisuu_logo_3.jpg);
+    padding-bottom: 30px;
+}
+
+.title {
+    height: 310px;
+    background-image: url(../images/members/m_title.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #2046c3;
+}
+
+.title h1 {
+    font-family: 'Kaisei Tokumin', serif;    
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.reverse {
+    font-family: 'Kaisei Tokumin', serif;
+    flex-direction: row-reverse;
+}
+
+.reverse .feature-text {
+    font-family: 'Kaisei Tokumin', serif;
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.feature-text h2 {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 10px;
+    filter: drop-shadow(2px 2px 0px #9fbef9);
+}
+
+.member-list {
+    font-family: 'Kaisei Tokumin', serif;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.member-name {
+    font-size: 27px;
+}
+
+.member-list li {
+    flex-shrink: 0;
+    width: 200px;
+    margin-left: 30px;
+    overflow: scroll;
+}
+
+.member-list li:first-child {
+    margin-left: auto;
+}
+
+.member-list li:last-child {
+    margin-right: auto;
+}
+
+.attention {
+    filter: drop-shadow(1px 1px 0px #ff0000);
+    margin-bottom: 10px;
+}
+
+.timeline {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.kaicho-twitter {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 16pt;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 0px;
+    filter: drop-shadow(1px 2px 0px #f6f9ff);
+}
+
+@media (max-width: 800px) {
+
+    .member-list {
+    padding-left: 20px;
+    padding-right: 20px; 
+    }
+
+    .member-list li {
+        width: 200px;        
+        margin-left: 20px;        
+    }
+}
+
+@media (min-width: 800px) {
+
+    .section1 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .section2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
