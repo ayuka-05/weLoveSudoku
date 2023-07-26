@@ -76,9 +76,21 @@
     align-items: center;
 }
 
+.katsudo-list ul, ol {
+    border-top: double 3px;
+    border-bottom: double 3px;
+    padding: 0.5em 0 0.5em 1.5em;
+    list-style: none;
+}
+
+.katsudo-list ul li, ol li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
 .reverse .katsudo-list-text {
     font-family: 'Kaisei Tokumin', serif;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 0;
 }
 
@@ -91,7 +103,7 @@
     filter: drop-shadow(1px 2px 1px #8bff93);
 }
 
-.katsudo-list-text dd {
+.katsudo-list-text li {
     font-family: 'Kaisei Tokumin', serif;
     margin-left: 40px;
     margin-right: 0px;
