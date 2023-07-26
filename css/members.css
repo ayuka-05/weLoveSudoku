@@ -97,7 +97,8 @@
 
 .attention {
     filter: drop-shadow(1px 1px 0px #ff0000);
-    margin-bottom: 10px;
+    padding-left: 30px;
+   margin-bottom: 10px;
 }
 
 .timeline {
@@ -111,9 +112,8 @@
     font-family: 'Kaisei Tokumin', serif;
     font-size: 16pt;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 0px;
+    padding-top: 10px;
+    padding-left: 50px;
     filter: drop-shadow(1px 2px 0px #f6f9ff);
 }
 
@@ -140,5 +140,22 @@
     .section2 {
         margin-left: 50px;
         margin-right: 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .member-list {
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .member-list li {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
